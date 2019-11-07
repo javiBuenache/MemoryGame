@@ -100,13 +100,13 @@ class ViewController: UIViewController
     {
         switch difficulty{
         case 0:
-            seconds = 3
+            seconds = 2.5
         case 1:
             seconds = 2
         case 2:
-            seconds = 1
+            seconds = 1.5
         case 3:
-            seconds = 0.5
+            seconds = 1
         default:
             seconds = 2
         }
